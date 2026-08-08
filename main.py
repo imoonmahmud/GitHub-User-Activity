@@ -16,13 +16,14 @@ def format_event(event):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('username')
+    parser.add_argument('-n', '--limit', type=int, default=10)
     args = parser.parse_args()
 
     events = fetch_events(args.username)
     if events is None:
         return
 
-    for event in events:
+    for event in events[:args.limit]:
         print(format_event(event))
 
 if __name__ == '__main__':
