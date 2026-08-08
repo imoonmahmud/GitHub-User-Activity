@@ -73,4 +73,4 @@ github-user-activity/
 
 ## Acknowledgements
 
-Project idea and requirements from roadmap.sh — GitHub User Activity.
+Project idea and requirements from roadmap.sh - [GitHub User Activity](https://roadmap.sh/projects/github-user-activity).
